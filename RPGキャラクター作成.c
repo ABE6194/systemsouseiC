@@ -6,12 +6,16 @@ int main(void)
 {
 	int i, s, c;
 
-	srand(time(0));
-	i = (rand() % 20 + 1);
+	do 
+	{
+		srand(time(0));
+		i = (rand() % 20 + 1);
 
-	s = (rand() % (20 - i) + 1);
+		s = (rand() % (20 - i) + 1);
 
-	c = 20 - (i + s);
+		c = 20 - (i + s);
+
+	} while (i == s||s == c||c == i);
 
 	if (i > s && i > c)
 		printf("あなたのクラスはmageです\n\n");
@@ -21,8 +25,7 @@ int main(void)
 
 	else if (c > i && c > s)
 		printf("あなたのクラスはthiefです\n\n");
-
-
+		
 	printf("あなたのステータス\nintelligence %d \nstamina %d \ncharisma %d \n",i,s,c);
 	
 	return 0;
