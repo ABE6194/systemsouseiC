@@ -14,16 +14,16 @@ int main(void)
 	c = 20 - (i + s);
 
 	if (i > s && i > c)
-		printf("���Ȃ��̃N���X��mage�ł�\n\n");
+		printf("あなたのクラスはmageです\n\n");
 
 	else if (s > i && s > c)
-		printf("���Ȃ��̃N���X��knight�ł�\n\n");
+		printf("あなたのクラスはknightです\n\n");
 
 	else if (c > i && c > s)
-		printf("���Ȃ��̃N���X��thief�ł�\n\n");
+		printf("あなたのクラスはthiefです\n\n");
 
 
-	printf("���Ȃ��̃X�e�[�^�X\nintelligence %d \nstamina %d \ncharisma %d \n",i,s,c);
+	printf("あなたのステータス\nintelligence %d \nstamina %d \ncharisma %d \n",i,s,c);
 	
 	return 0;
 }
