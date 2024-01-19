@@ -7,20 +7,20 @@ int main(void)
 	int a, b, c;
 	int x1 = 0;
 	int x2 = 0;
-	printf("ax^2+bx+c‚Ìa‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢\n");
+	printf("ax^2+bx+cã®aã‚’å…¥åŠ›ã—ã¦ãã ã•ã„\n");
 	scanf_s("%d",&a);
 	if (a == 0)
 	{	
 		while (a == 0)
 		{
-			printf("a‚ª0‚É‚È‚ç‚È‚¢‚æ‚¤‚ÉÄ“xa‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢\n");
+			printf("aãŒ0ã«ãªã‚‰ãªã„ã‚ˆã†ã«å†åº¦aã‚’å…¥åŠ›ã—ã¦ãã ã•ã„\n");
 			scanf_s("%d", &a);
 		}
 	}
 	   
-	printf("ax^2+bx+c‚Ìb‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢\n");
+	printf("ax^2+bx+cã®bã‚’å…¥åŠ›ã—ã¦ãã ã•ã„\n");
 	scanf_s("%d", &b);
-	printf("ax^2+bx+c‚Ìc‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢\n");
+	printf("ax^2+bx+cã®cã‚’å…¥åŠ›ã—ã¦ãã ã•ã„\n");
 	scanf_s("%d", &c);
 
 	kai(a, b, c);
