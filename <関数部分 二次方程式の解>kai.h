@@ -17,5 +17,5 @@ int kai(int a, int b, int c)
 	     printf("x=%d", x1);
 	}
 	else
-	  printf("À”‰ğ‚È‚µ");
+	  printf("å®Ÿæ•°è§£ãªã—");
 }
