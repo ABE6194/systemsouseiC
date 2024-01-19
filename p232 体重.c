@@ -28,8 +28,8 @@ int main(void)
 		}
 	}
 
-	printf("ˆê”Ôd‚¢l‚Í,%g kg ‚Å‚·.",max_weight);
-	printf("ˆê”ÔŒy‚¢l‚Í,%g kg ‚Å‚·.",min_weight);
+	printf("ä¸€ç•ªé‡ã„äººã¯,%g kg ã§ã™.",max_weight);
+	printf("ä¸€ç•ªè»½ã„äººã¯,%g kg ã§ã™.",min_weight);
 
 	return 0;
 
