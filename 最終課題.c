@@ -79,10 +79,8 @@ int main(void)
 		
 	}
 
-	if (a == m)
-	{
-		printf("正解!");
-	}
+	printf("正解!");
+	
 
 	return 0;
 
